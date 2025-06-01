@@ -15,6 +15,9 @@ if (isset($_GET['page'])) {
         case 'bidang':
             include 'bidang/index.php';
             break;
+        case 'del-bidang':
+            include 'bidang/del.php';
+            break;
         case 'usaha':
             include 'usaha.php';
             break;

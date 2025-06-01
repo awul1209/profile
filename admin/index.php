@@ -29,6 +29,9 @@ $data_email = $_SESSION['email'];
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+<script src="js/alert.js"></script>
+
 </head>
 
 <body id="page-top">
@@ -78,6 +81,8 @@ $data_email = $_SESSION['email'];
             </div>
         </div>
     </div>
+
+
 
     <!-- JavaScript Libraries -->
     <script src="vendor/jquery/jquery.min.js"></script>
